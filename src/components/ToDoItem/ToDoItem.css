@@ -1,0 +1,12 @@
+.ToDo-Item {
+    background-color: white;
+    display: flex;
+    width: 600px;
+    height: 50px;
+    min-height: 50px;
+    color: black;
+    font-size: 10pt;
+    font-family: 'JetBrains Mono', Courier, monospace;
+    border: solid 1px;
+  }
+  

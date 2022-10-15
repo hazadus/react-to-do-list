@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
   pointer-events: none;
 }
 
@@ -35,4 +35,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ToDo-Window {
+  background-color: antiquewhite;
+  height: 600px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ToDo-Window-Left-Column {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 600px;
+}
+
+.App-Logo-Row {
+  width: 200px;
+  height: 50px;
+  align-content: center;
+}
+
+.Category-Row {
+  background-color: white;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  color: black;
+}
+
+.ToDo-Window-Right-Column {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+}
+
+.Search-Bar {
+  display: flex;
+  width: 600px;
+  height: 50px;
+  color: black;
+  font-size: 10pt;
+  font-family: 'JetBrains Mono', Courier, monospace;
+}
+
+.ToDo-List-View {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 700px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.Add-ToDo-Bar {
+  display: flex;
+  width: 600px;
+  height: 50px;
+  color: black;
+  font-size: 10pt;
+  font-family: 'JetBrains Mono', Courier, monospace;
 }
